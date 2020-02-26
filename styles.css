@@ -72,6 +72,14 @@ header {
   margin-top: 10px;
   border-radius: 5%;
 }
+/*photos on contact page*/
+header .contact-page {
+  text-align: center;
+  background: url('images/husband.jpg') top left ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
 
 header {
   line-height: 2.0;
@@ -128,6 +136,15 @@ header .profile-image:hover {
   border-bottom: 4px solid green;
   border-radius: 6px;
   transition: all .5s;
+}
+
+.contact {
+  border-radius: 5px;
+  display: inline-block;
+  background: orange;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
 }
 
 ul.skills {
