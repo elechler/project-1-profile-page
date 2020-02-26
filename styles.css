@@ -15,10 +15,10 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: green;
 }
 a:hover {
-  color: #6633ff;
+  color: orange;
 }
 
 /* Section Styles */
@@ -43,7 +43,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color: grey;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -57,36 +57,54 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/ranch background.jpg') no-repeat center center ;
+  background: url('images/husband.jpg') top left ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
-header {
-  line-height: 1.5;
-}
-header .profile-image {
-  margin-top: 50px;
+/* photos on interest page*/
+.shine {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
+  margin-top: 10px;
+  border-radius: 5%;
+}
+
+header {
+  line-height: 2.0;
+}
+header .profile-image {
+  display: block;
+  margin-left: 256px;
+  margin-right: 500px;
+  margin-top: 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 8%;
+  border: 3px solid green;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.5) rotate(10deg);
 }
 .tag {
-  background-color: #efefef;
+  background-color: white;
   color: black;
-  padding: 10px;
+  display: block;
+  margin-left: 30px;
+  margin-right: 800px;
   border-radius: 5px;
-  display: table;
-  margin: 10px auto;
+  border-bottom: 4px solid green;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: white;
+  color: black;
+  display: block;
+  margin-left: 30px;
+  margin-right: 800px
 }
 .card {
   margin: 30px;
@@ -99,7 +117,17 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: green;
+}
+.interests {
+  margin: 20px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: white;
+  border-bottom: 4px solid green;
+  border-radius: 6px;
+  transition: all .5s;
 }
 
 ul.skills {
@@ -110,14 +138,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: green;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: grey;
 }
 
 footer {
